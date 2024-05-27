@@ -7,7 +7,7 @@
         /></a>
       </div>
       <h1 class="hammersmith-one-regular">
-        ASSOCIAÇÃO DOS COMPRADORES DO NOVA CAIAPIÁ
+        ASSOCIAÇÃO DOS COMPRADORES NOVA CAIAPIÁ
       </h1>
     </section>
   </header>
