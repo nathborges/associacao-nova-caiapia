@@ -13,7 +13,7 @@
       <blockquote
         cite="https://www.facebook.com/profile.php?id=61559550944707&amp;amp;amp;mibextid=ZbWKwL"
         class="fb-xfbml-parse-ignore">
-        <a href="https://www.facebook.com/profile.php?id=61559550944707&amp;amp;amp;mibextid=ZbWKwL">Associação dos Compradores do Loteamento Nova Caiapiá</a>
+        <a href="https://www.facebook.com/profile.php?id=61559550944707&amp;amp;amp;mibextid=ZbWKwL">Associação dos Compradores do Nova Caiapiá</a>
       </blockquote>
     </div>
   </main>

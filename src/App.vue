@@ -7,7 +7,7 @@
         /></a>
       </div>
       <h1 class="hammersmith-one-regular">
-        ASSOCIAÇÃO DOS COMPRADORES DO LOTEAMENTO NOVA CAIAPIÁ
+        ASSOCIAÇÃO DOS COMPRADORES DO NOVA CAIAPIÁ
       </h1>
     </section>
   </header>
@@ -176,8 +176,8 @@ p {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
   align-content: center;
+  align-items: flex-start;
 }
 
 nav a.router-link-exact-active {
