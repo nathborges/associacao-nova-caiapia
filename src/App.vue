@@ -73,7 +73,7 @@
       <RouterView class="content" />
     </div>
   </section>
-  <footer>©️ 2024 Associação dos Compradores do Loteamento Nova Caiapiá. Todos os direitos reservados.</footer>
+  <footer>©️ 2024 Associação dos Compradores do Loteamento Nova Caiapiá. Todos os direitos reservados. | Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/nathaliafborges/"> Nathália Borges.</a> </footer>
 </template>
 
 <style scoped>
