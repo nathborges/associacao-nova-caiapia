@@ -1,10 +1,10 @@
-<script setup></script>
-
 <template>
   <header>
     <section class="flex-row logo-container">
       <div class="logo">
-        <a href="./"><img alt="Associação logo" src="@/assets/logo.png" width="200" /></a>
+        <a href="./"
+          ><img alt="Associação logo" src="@/assets/logo.png" width="200"
+        /></a>
       </div>
       <h1 class="hammersmith-one-regular">
         ASSOCIAÇÃO DOS COMPRADORES DO LOTEAMENTO NOVA CAIAPIÁ
@@ -16,7 +16,8 @@
       <h2 class="title">Sobre nós</h2>
       <p>
         Unidos pela luta contra o descaso e o atraso na entrega dos lotes
-        vendidos entre 2020 e 2022 pela Construtora (C&Gomes). O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
+        vendidos entre 2020 e 2022 pela Construtora (C&Gomes). O loteamento
+        situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
       </p>
       <nav class="flex-column menu-items">
         <hr class="solid divider" />
@@ -72,6 +73,7 @@
       <RouterView class="content" />
     </div>
   </section>
+  <footer>©️ 2024 Associação dos Compradores do Loteamento Nova Caiapiá. Todos os direitos reservados.</footer>
 </template>
 
 <style scoped>
@@ -194,5 +196,12 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+footer {
+  font-size: 10px;
+  color: #565656;
+  text-align: right;
+  padding-bottom: 20px;
 }
 </style>
