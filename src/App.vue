@@ -144,11 +144,11 @@ p {
   font-family: "Inter";
   font-weight: 500;
   color: var(--main-text-color);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .social-media-text {
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: underline;
 }
 
