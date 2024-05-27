@@ -4,7 +4,7 @@
   <header>
     <section class="flex-row logo-container">
       <div class="logo">
-        <img alt="Associação logo" src="@/assets/logo.png" width="200" />
+        <a href="./"><img alt="Associação logo" src="@/assets/logo.png" width="200" /></a>
       </div>
       <h1 class="hammersmith-one-regular">
         ASSOCIAÇÃO DOS COMPRADORES DO LOTEAMENTO NOVA CAIAPIÁ
@@ -17,8 +17,7 @@
       <p>
         Unidos pela luta contra o descaso e o atraso na entrega dos lotes
         vendidos entre 2020 e 2022 pela Construtora e Incorporadora Manassés
-        (C&Gomes). <br />
-        O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
+        (C&Gomes). O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
       </p>
       <nav class="flex-column menu-items">
         <hr class="solid divider" />
