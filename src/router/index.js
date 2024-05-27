@@ -9,10 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: '/inscreva-se',
-      beforeEnter() {location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfJGSf_7QNROf-sR8R3XDqEiQPOIDs65dIsvL6HIzWtPsnyTA/viewform'}
-    }
+    { path: '/:pathMatch(.*)*', component: HomeView },
   ]
 })
 
