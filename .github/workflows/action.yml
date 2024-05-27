@@ -30,20 +30,33 @@ jobs:
           path: ./dist
 
   deploy:
+    # name: Deploy
+    # needs: build
+    # runs-on: ubuntu-latest
+    # if: github.ref == 'refs/heads/main'
+
+    # steps:
+    #   - name: Download artifact
+    #     uses: actions/download-artifact@v3
+    #     with:
+    #       name: production-files
+    #       path: ./dist
+
+    #   - name: Deploy to GitHub Pages
+    #     uses: peaceiris/actions-gh-pages@v3
+    #     with:
+    #       github_token: ${{ secrets.GITHUB_TOKEN }}
+    #       publish_dir: ./dist
+
     name: Deploy
-    needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: production-files
-          path: ./dist
+      - uses: actions/checkout@v2
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: FTP Deploy Locaweb
+        uses: locaweb/ftp-deploy@1.0.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER }}
+          password: ${{ secrets.PASS }}
+          localDir: "dist"
