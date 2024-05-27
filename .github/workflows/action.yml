@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+runs:
+  using: 'node20'
+  main: 'main.js'
+
 jobs:
   build:
     name: Build
@@ -30,28 +34,15 @@ jobs:
           path: ./dist
 
   deploy:
-    # name: Deploy
-    # needs: build
-    # runs-on: ubuntu-latest
-    # if: github.ref == 'refs/heads/main'
-
-    # steps:
-    #   - name: Download artifact
-    #     uses: actions/download-artifact@v3
-    #     with:
-    #       name: production-files
-    #       path: ./dist
-
-    #   - name: Deploy to GitHub Pages
-    #     uses: peaceiris/actions-gh-pages@v3
-    #     with:
-    #       github_token: ${{ secrets.GITHUB_TOKEN }}
-    #       publish_dir: ./dist
-
     name: Deploy
+    needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: production-files
+          path: ./dist
 
       - name: FTP Deploy Locaweb
         uses: locaweb/ftp-deploy@1.0.0
