@@ -22,10 +22,6 @@
       </p>
       <nav class="flex-column menu-items">
         <hr class="solid divider" />
-
-        <RouterLink to="/">Início</RouterLink>
-        <hr class="solid divider" />
-
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfJGSf_7QNROf-sR8R3XDqEiQPOIDs65dIsvL6HIzWtPsnyTA/viewform"
           target="_blank"
@@ -53,6 +49,25 @@
         <RouterLink to="/">Perguntas frequentes</RouterLink>
         <hr class="solid" />
       </nav>
+      <h2 class="title">Acompanhe nossas redes sociais</h2>
+      <div class="social-media-container">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/people/Associa%C3%A7%C3%A3o-dos-Compradores-do-Loteamento-Nova-Caiapi%C3%A1/61559550944707/?ref=embed_page"
+          ><img src="@/assets/social-media/facebook.svg"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/loteamento_caiapia"
+          ><img src="@/assets/social-media/instagram.svg"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/@assoc.compradores.caiapia"
+          ><img src="@/assets/social-media/youtube.svg"
+        /></a>
+      </div>
+      <a href="mailto://assoc.compradores.caiapia@gmail.com"
+        ><p class="social-media-text">Fale conosco</p></a
+      >
     </div>
     <div class="content-bar flex-column">
       <h2 class="title outline">Últimas atualizações</h2>
@@ -89,7 +104,7 @@ h1 {
 }
 
 .solid {
-  border-top: 1px solid #a4a4a4;
+  border-top: 1px solid #d4d4d4;
   border-radius: 10px;
   width: 100%;
 }
@@ -114,7 +129,7 @@ nav {
   font-family: "Inter";
   font-weight: 700;
   color: var(--main-title-color);
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -122,7 +137,7 @@ nav {
   font-family: "Inter";
   font-weight: 600;
   color: var(--main-menu-color);
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -130,7 +145,12 @@ p {
   font-family: "Inter";
   font-weight: 500;
   color: var(--main-text-color);
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.social-media-text {
+  font-size: 15px;
+  text-decoration: underline;
 }
 
 .logo-container > h1 {
