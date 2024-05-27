@@ -17,7 +17,7 @@
       <p>
         Unidos pela luta contra o descaso e o atraso na entrega dos lotes
         vendidos entre 2020 e 2022 pela Construtora e Incorporadora Manassés
-        (C&Gomes). <br/>
+        (C&Gomes). <br />
         O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
       </p>
       <nav class="flex-column menu-items">
@@ -89,7 +89,7 @@ h1 {
 }
 
 .solid {
-  border-top: 1px solid #A4A4A4;
+  border-top: 1px solid #a4a4a4;
   border-radius: 10px;
   width: 100%;
 }
@@ -118,7 +118,6 @@ nav {
   text-align: center;
 }
 
-
 .menu-items {
   font-family: "Inter";
   font-weight: 600;
@@ -136,6 +135,7 @@ p {
 
 .logo-container > h1 {
   align-self: center;
+  line-height: 1;
 }
 
 .logo {
