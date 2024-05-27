@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 :root {
-  --main-title-color: #517cb9;
+  --main-menu-color: #517cb9;
+  --main-title-color: #22222;
   --main-text-color: #565656;
-  --main-title-click-color: #2c61ac;
+  --main-menu-click-color: #2c61ac;
   --main-bg-color: #ededed;
 }
 
 html {
   background-color: var(--main-bg-color);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #app {
   font-weight: normal;
   width: 99vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
@@ -68,9 +70,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  html {
-    overflow-x: scroll;
   }
 
   #app {

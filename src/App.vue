@@ -6,18 +6,21 @@
       <div class="logo">
         <img alt="Associação logo" src="@/assets/logo.png" width="200" />
       </div>
-      <h1 class="hammersmith-one-regular">ASSOCIAÇÃO DOS COMPRADORES DO LOTEAMENTO NOVA CAIAPIÁ</h1>
+      <h1 class="hammersmith-one-regular">
+        ASSOCIAÇÃO DOS COMPRADORES DO LOTEAMENTO NOVA CAIAPIÁ
+      </h1>
     </section>
   </header>
   <section class="flex-row">
     <div class="nav-bar">
       <h2 class="title">Sobre nós</h2>
       <p>
-        Unidos pela luta contra o descaso e o atraso na entrega dos lotes vendidos entre 2020-2022
-        pela Construtora e Incorporadora Manassés (C&Gomes). <br />
-        O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP
+        Unidos pela luta contra o descaso e o atraso na entrega dos lotes
+        vendidos entre 2020 e 2022 pela Construtora e Incorporadora Manassés
+        (C&Gomes). <br/>
+        O loteamento situa-se na Avenida Manoel Lages do Chão, 1069, Cotia - SP.
       </p>
-      <nav class="flex-column title">
+      <nav class="flex-column menu-items">
         <hr class="solid divider" />
 
         <RouterLink to="/">Início</RouterLink>
@@ -30,7 +33,7 @@
         >
         <hr class="solid divider" />
 
-        <RouterLink to="/linha-do-tempo">Linha do tempo</RouterLink>
+        <RouterLink to="/">Linha do tempo</RouterLink>
         <hr class="solid divider" />
 
         <a
@@ -47,12 +50,12 @@
         >
         <hr class="solid divider" />
 
-        <RouterLink to="/about">Perguntas frequentes</RouterLink>
+        <RouterLink to="/">Perguntas frequentes</RouterLink>
         <hr class="solid" />
       </nav>
     </div>
     <div class="content-bar flex-column">
-      <h2 class="title">Últimas atualizações</h2>
+      <h2 class="title outline">Últimas atualizações</h2>
       <RouterView class="content" />
     </div>
   </section>
@@ -86,7 +89,7 @@ h1 {
 }
 
 .solid {
-  border-top: 1px solid #565656;
+  border-top: 1px solid #A4A4A4;
   border-radius: 10px;
   width: 100%;
 }
@@ -107,18 +110,27 @@ nav {
 }
 
 .title {
-  font-family: 'Roboto';
-  font-weight: 500;
+  font-family: "Inter";
+  font-weight: 700;
   color: var(--main-title-color);
+  font-size: 26px;
+  text-align: center;
+}
+
+
+.menu-items {
+  font-family: "Inter";
+  font-weight: 600;
+  color: var(--main-menu-color);
   font-size: 22px;
   text-align: center;
 }
 
 p {
-  font-family: 'Roboto';
-  font-weight: 400;
+  font-family: "Inter";
+  font-weight: 500;
   color: var(--main-text-color);
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .logo-container > h1 {
