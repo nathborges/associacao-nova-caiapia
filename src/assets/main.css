@@ -14,6 +14,11 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  width: 100%;
+  margin: 0px;
+}
+
 #app {
   font-weight: normal;
   width: 99vw;
